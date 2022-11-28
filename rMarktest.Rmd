@@ -13,11 +13,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-## Main head  
+# Main head  
 
-Extra text
+Extra text - here is the link [linkage](http://www.osf.io])
 
-# Minor head
+## Minor head    
+
+Extra text 2
+
+### Minor head   
+
+Extra text 3
 
 One two three
 
@@ -26,6 +32,17 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars}
 summary(cars)
 ```
+
+More code here sections
+
+-try  
+-tr2  
+- try3  
+
+```{r}
+print("Hi there folks")
+```
+
 
 ## Including Plots
 
